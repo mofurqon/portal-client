@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.main-navigation__menu-btn {
+    width: 3rem;
+    height: 3rem;
+    background: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 2rem;
+    cursor: pointer;
+  }
+  
+  .main-navigation__menu-btn div {
+    display: block;
+    width: 33px;
+    height: 3.5px;
+    margin: 2px;
+    background: #dad2c5;
+  }
+  
+  .main-navigation__title {
+    color: rgb(228, 227, 227);
+    font-weight: bolder;
+    letter-spacing: 1px;
+    margin-left: 6vh;
+    font-size: 2.4rem;
+    font-family: 'Kaushan Script', cursive;
+  }
+  
+  .main-navigation__title a {
+    text-decoration: none;
+    color:#dad2c5;
+  }
+  
+  .main-navigation__header-nav {
+    display: none;
+  }
+  
+  .main-navigation__drawer-nav {
+    height: 100%;
+  }
+
+  .main-navigation__burger {
+    color: #dad2c5;
+  }
+  
+  @media (min-width: 768px) {
+    .main-navigation__menu-btn {
+      display: none;
+    }
+  
+    .main-navigation__header-nav {
+      display: block;
+    }
+  }

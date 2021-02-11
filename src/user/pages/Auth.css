@@ -1,0 +1,34 @@
+  .auth-form__title {
+    color: #765b58;
+    font-size: 1.6rem;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+  }
+
+.auth-form__title h2 {
+    text-decoration: none;
+    color:#765b58;
+    text-align: center;
+}
+
+.auth-form__footer {
+  text-align: center;
+}
+
+auth-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.auth-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.auth-exit {
+  opacity: 1;
+}
+.auth-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
